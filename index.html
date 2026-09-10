@@ -4,146 +4,541 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="style.css" rel="stylesheet">
-
+    <meta name="description" content="Cuisine : plan EGGER H3157 ST12 Chêne Vicenza, meubles U604 ST9 Vert eucalyptus, documents techniques des appareils, et achats encore en cours (évier, robinet, hotte).">
+    <meta name="theme-color" content="#717b6c">
+    <meta name="color-scheme" content="light">
     <title>Documents techniques cuisine</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232c4a3c'/%3E%3Cpath fill='%23e8d7a8' d='M8 10h16v3H8zm0 6h16v10H8z'/%3E%3C/svg%3E">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
 
-	<div class="download-main">
-		<strong>📄 Dossier technique complet pour le menuisier</strong>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" width="28" height="28">
+                        <rect width="32" height="32" rx="8" fill="currentColor" opacity=".12"/>
+                        <path fill="currentColor" d="M9 9h14v3.2H9zm0 5.4h14V23H9z"/>
+                    </svg>
+                </span>
+                <div>
+                    <h1>Documents techniques</h1>
+                </div>
+            </div>
+            <p class="header-meta">
+                <time datetime="2026-09-10">10 septembre 2026</time>
+                <span aria-hidden="true">·</span>
+                5 commandés · 3 à acheter
+            </p>
+        </div>
+    </header>
 
-		<p>
-			Retrouvez dans ce document les principales informations techniques
-			et dimensions nécessaires à la fabrication de la cuisine.
-		</p>
+    <div class="hero">
+        <div class="hero-copy">
+            <p class="eyebrow">Prioritaire menuisier</p>
+            <h2>Dossier technique complet</h2>
+            <p>
+                Cuisine en Vert eucalyptus U604, plan de travail Chêne Vicenza H3157,
+                avec niches et documents de pose.
+            </p>
+        </div>
+        <a class="hero-cta" href="./Dossier_technique_menuisier.pdf" target="_blank" rel="noopener">
+            Ouvrir le dossier PDF
+            <span class="cta-hint">s’ouvre dans un nouvel onglet</span>
+        </a>
+    </div>
 
-		<a href="./Dossier_technique_menuisier.pdf" target="_blank">
-			Ouvrir le dossier technique PDF
-		</a>
-	</div>
+    <div class="toolbar" id="outils">
+        <label class="search-field">
+            <span class="visually-hidden">Rechercher un appareil ou un document</span>
+            <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                <path d="M15.5 15.5 20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <input type="search" id="search" placeholder="Rechercher un appareil, une marque, un PDF…" autocomplete="off" enterkeyhint="search">
+            <kbd class="search-kbd">/</kbd>
+        </label>
 
+        <nav class="jump-nav" aria-label="Accès rapide">
+            <a href="#materiaux">Matériaux</a>
+            <a href="#plan">Plan</a>
+            <span class="jump-cluster">
+                <a href="#frigo">Réfrigérateur</a>
+                <a href="#micro">Micro-ondes</a>
+                <a href="#four">Four</a>
+                <a href="#lv">Lave-vaisselle</a>
+                <a href="#plaque">Plaque</a>
+                <a href="#evier">Évier</a>
+                <a href="#robinet">Robinet</a>
+                <a href="#hotte">Hotte</a>
+            </span>
+        </nav>
 
-    <h1>Documents techniques des 5 appareils commandés</h1>
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+    </div>
 
-    <p>
-        <small>
-            10 septembre 2026 - liens vers les documents d’origine
-        </small>
+    <main id="contenu">
+        <section class="block" id="materiaux" aria-labelledby="titre-materiaux">
+            <h2 class="section-title" id="titre-materiaux">Matériaux EGGER</h2>
+            <p class="pending-note">Plan Chêne Vicenza (H3157 ST12) et façades Vert eucalyptus (U604 ST9), à confirmer sur échantillon réel.</p>
+            <div class="material-grid">
+                <article class="card" data-search="egger h3157 st12 chêne vicenza chene plan de travail stratifié omnipore">
+                    <div class="swatch swatch-oak" aria-hidden="true"></div>
+                    <header class="card-head">
+                        <div>
+                            <p class="brand-name">Plan de travail</p>
+                            <h2>H3157 ST12</h2>
+                            <p class="card-role">Chêne Vicenza · Omnipore Matt</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li data-kind="web">
+                            <a href="https://www.egger.com/fr/mobilier-agencement-interieur/decors/H3157_12?country=FR" target="_blank" rel="noopener noreferrer">
+                                <span class="doc-type web">Web</span>
+                                <span class="doc-title">Fiche décor EGGER — Chêne Vicenza</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="pending-note">Chêne de fil élégant, légère nuance de gris, toucher soyeux ST12.</p>
+                </article>
+
+                <article class="card" data-search="egger u604 st9 vert eucalyptus meubles meuble façade facade uni">
+                    <div class="swatch swatch-euca" aria-hidden="true"></div>
+                    <header class="card-head">
+                        <div>
+                            <p class="brand-name">Meubles</p>
+                            <h2>U604 ST9</h2>
+                            <p class="card-role">Vert eucalyptus · Smoothtouch Matt</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li data-kind="web">
+                            <a href="https://www.egger.com/fr/mobilier-agencement-interieur/decors/U604_9?country=FR" target="_blank" rel="noopener noreferrer">
+                                <span class="doc-type web">Web</span>
+                                <span class="doc-title">Fiche décor EGGER — Vert eucalyptus</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="pending-note">Vert uni mat ST9, plus chaud qu’un vert gris. RAL 7033 approx.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="block" id="plan" aria-labelledby="titre-plan">
+            <h2 class="section-title" id="titre-plan">Plans</h2>
+            <p class="pending-note">Les dessins d’implantation définitif n’ont pas encore été ajoutés. Les fichiers iront ici.</p>
+            <div class="material-grid">
+                <article class="card is-soon" data-search="plan implantation vue dessus cuisine layout dessin cotes à venir avenir">
+                    <div class="soon-preview" aria-hidden="true">
+                        <svg viewBox="0 0 120 72" width="120" height="72">
+                            <rect x="8" y="8" width="104" height="56" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M8 28h104M48 28v36M88 8v56" stroke="currentColor" stroke-width="1.2" opacity=".7"/>
+                            <rect x="16" y="36" width="22" height="20" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <header class="card-head">
+                        <div>
+                            <p class="brand-name">Plan</p>
+                            <h2>Inspiration</h2>
+                            <p class="card-role">Premier draft via IKEA</p>
+                        </div>
+                    </header>
+						<ul class="doc-list">
+								<a href="./IKEA Kitchen Planner.pdf" target="_blank" rel="noopener">
+									<span class="doc-type">PDF</span>
+									<span class="doc-title">Plans</span>
+								</a>
+							</li>
+							<li data-kind="web">
+								<a href="https://kitchen.planner.ikea.com/fr/fr/planner/2A1413AA-6525-45A2-B5BE-528A8AA82F26/?ref=share" target="_blank" rel="noopener noreferrer">
+									<span class="doc-type web">Web</span>
+									<span class="doc-title">Page conception IKEA</span>
+								</a>
+							</li>
+						</ul>
+                </article>
+
+                <article class="card is-soon" data-search="plan élévation elevation façades facades coupes dessin à venir avenir">
+                    <div class="soon-preview" aria-hidden="true">
+                        <svg viewBox="0 0 120 72" width="120" height="72">
+                            <rect x="10" y="14" width="100" height="46" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                            <path d="M10 28h100M40 14v46M80 14v46" stroke="currentColor" stroke-width="1.2" opacity=".7"/>
+                            <rect x="18" y="34" width="14" height="18" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <rect x="88" y="34" width="14" height="18" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                        </svg>
+                    </div>
+                    <header class="card-head">
+                        <div>
+                            <p class="brand-name">Plan</p>
+                            <h2>Définitif</h2>
+                            <p class="card-role">Vues des meubles et appareils</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li>
+                            <span class="plain">Fichier pas encore disponible</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="block" id="appareils" aria-labelledby="titre-appareils">
+            <h2 class="section-title" id="titre-appareils">Appareils</h2>
+            <div class="appliance-grid">
+        <article class="card" id="frigo" data-search="beko bssa315k4sn réfrigérateur refrigerateur froid encastrable niche notice">
+            <header class="card-head">
+                <span class="card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="36" height="36">
+                        <rect x="11" y="5" width="18" height="30" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M11 18h18" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M24 10v4M24 22v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <div>
+                    <p class="brand-name">Réfrigérateur</p>
+                    <h2>BSSA315K4SN</h2>
+                    <p class="card-role">Beko · encastrable 1 porte</p>
+                </div>
+            </header>
+            <ul class="doc-list">
+                <li data-kind="pdf">
+                    <a href="./Beko BSSA315K4SN - réfrigérateur - Appareil et niche (PDF).pdf" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Fiche appareil et niche</span>
+                    </a>
+                </li>
+                <li data-kind="pdf">
+                    <a href="./Beko BSSA315K4SN - réfrigérateur - Notice (PDF).pdf#page=34" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Notice — page 34</span>
+                    </a>
+                </li>
+                <li data-kind="web">
+                    <a href="https://www.beko.fr/froid/refrigerateur-congelateur-encastrable/refrigerateur-encastrable-1-porte/bssa315k4sn" target="_blank" rel="noopener noreferrer">
+                        <span class="doc-type web">Web</span>
+                        <span class="doc-title">Page officielle Beko</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="card" id="micro" data-search="beko bmgb25333bg micro-ondes microondes grill encastrable niche installation">
+            <header class="card-head">
+                <span class="card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="36" height="36">
+                        <rect x="6" y="9" width="28" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <rect x="10" y="13" width="16" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <circle cx="30" cy="16" r="1.4" fill="currentColor"/>
+                        <circle cx="30" cy="21" r="1.4" fill="currentColor"/>
+                    </svg>
+                </span>
+                <div>
+                    <p class="brand-name">Micro-ondes</p>
+                    <h2>BMGB25333BG</h2>
+                    <p class="card-role">Beko · grill encastrable</p>
+                </div>
+            </header>
+            <ul class="doc-list">
+                <li data-kind="pdf">
+                    <a href="./Beko BMGB25333BG - micro-ondes - Schéma de niche.pdf#page=55" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Schéma de niche — page 55</span>
+                    </a>
+                </li>
+                <li data-kind="pdf">
+                    <a href="./Beko BMGB25333BG - micro-ondes - Schéma de niche.pdf#page=54" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Installation — page 54</span>
+                    </a>
+                </li>
+                <li data-kind="web">
+                    <a href="https://www.beko.fr/cuisson-encastrable/micro-ondes-et-grill-encastrable/micro-ondes-grill-encastrable/bmgb25333bg" target="_blank" rel="noopener noreferrer">
+                        <span class="doc-type web">Web</span>
+                        <span class="doc-title">Page officielle Beko</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="card" id="four" data-search="rosières rosieres ro6 t3b3eytb four encastrable manuel installation">
+            <header class="card-head">
+                <span class="card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="36" height="36">
+                        <rect x="7" y="7" width="26" height="26" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <rect x="11" y="14" width="18" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M13 10h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <div>
+                    <p class="brand-name">Four</p>
+                    <h2>RO6 T3B3EYTB</h2>
+                    <p class="card-role">Rosières · encastrable</p>
+                </div>
+            </header>
+            <ul class="doc-list">
+                <li data-kind="pdf">
+                    <a href="./Rosières RO6 T3B3EYTB - four - Manuel.pdf#page=49" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Manuel d’instructions — page 49</span>
+                    </a>
+                </li>
+                <li data-kind="pdf">
+                    <a href="./Rosières RO6 T3B3EYTB - four - Manuel.pdf#page=88" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Manuel d’installation — page 88</span>
+                    </a>
+                </li>
+                <li data-kind="web">
+                    <a href="https://www.rosieres.fr/fr_FR/fours/33704465/ro6-t3b3eytb/" target="_blank" rel="noopener noreferrer">
+                        <span class="doc-type web">Web</span>
+                        <span class="doc-title">Page officielle Rosières</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="card" id="lv" data-search="hotpoint hi5030wef lave-vaisselle lave vaisselle fiche ue produit montage">
+            <header class="card-head">
+                <span class="card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="36" height="36">
+                        <rect x="8" y="6" width="24" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <path d="M8 13h24" stroke="currentColor" stroke-width="1.8"/>
+                        <circle cx="14" cy="9.5" r="1.2" fill="currentColor"/>
+                        <circle cx="18" cy="9.5" r="1.2" fill="currentColor"/>
+                        <path d="M14 22c3-4 9-4 12 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <div>
+                    <p class="brand-name">Lave-vaisselle</p>
+                    <h2>HI5030WEF</h2>
+                    <p class="card-role">Hotpoint · encastrable</p>
+                </div>
+            </header>
+            <ul class="doc-list">
+                <li data-kind="pdf">
+                    <a href="./Hotpoint HI5030WEF - lave-vaisselle - Fiche UE.pdf" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Fiche UE du modèle</span>
+                    </a>
+                </li>
+                <li data-kind="pdf">
+                    <a href="./Hotpoint HI5030WEF - lave-vaisselle - Fiche produit.pdf" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Fiche produit</span>
+                    </a>
+                </li>
+                <li data-kind="pdf">
+                    <a href="./Hotpoint HI5030WEF - lave-vaisselle - Montage.pdf" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Fiche montage</span>
+                    </a>
+                </li>
+                <li data-kind="web">
+                    <a href="https://docs.hotpoint.eu/" target="_blank" rel="noopener noreferrer">
+                        <span class="doc-type web">Web</span>
+                        <span class="doc-title">Portail officiel — rechercher HI5030WEF</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+        <article class="card" id="plaque" data-search="electrolux eiv66453i plaque induction hob schémas installation">
+            <header class="card-head">
+                <span class="card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="36" height="36">
+                        <rect x="6" y="10" width="28" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                        <circle cx="14.5" cy="18" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        <circle cx="25.5" cy="18" r="4.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        <circle cx="14.5" cy="26" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        <circle cx="25.5" cy="26" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </span>
+                <div>
+                    <p class="brand-name">Plaque</p>
+                    <h2>EIV66453I</h2>
+                    <p class="card-role">Electrolux · induction</p>
+                </div>
+            </header>
+            <ul class="doc-list">
+                <li data-kind="pdf">
+                    <a href="./Electrolux EIV66453I - plaque - Schémas d’installation.pdf#page=9" target="_blank" rel="noopener">
+                        <span class="doc-type">PDF</span>
+                        <span class="doc-title">Schémas d’installation — page 9</span>
+                    </a>
+                </li>
+                <li data-kind="web">
+                    <a href="https://www.electrolux.fr/kitchen/cooking/hobs/induction-hob/eiv66453i/" target="_blank" rel="noopener noreferrer">
+                        <span class="doc-type web">Web</span>
+                        <span class="doc-title">Page officielle Electrolux</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+
+                <article class="card" id="evier" data-search="évier evier sink bac plan de travail">
+                    <header class="card-head">
+                        <span class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="36" height="36">
+                                <rect x="6" y="12" width="28" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                                <path d="M10 18h20v6H10z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="brand-name">Évier</p>
+                            <h2>À choisir</h2>
+                            <p class="card-role">À encastrer dans le Chêne Vicenza</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li>
+                            <span class="plain">Modèle non choisi — documents à venir</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="card" id="robinet" data-search="robinet mitigeur robinetterie eau">
+                    <header class="card-head">
+                        <span class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="36" height="36">
+                                <path d="M12 28V16h10c5 0 8 3 8 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <path d="M28 23v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="brand-name">Robinet</p>
+                            <h2>À choisir</h2>
+                            <p class="card-role">À coordonner avec l’évier</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li>
+                            <span class="plain">Modèle non choisi — documents à venir</span>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="card" id="hotte" data-search="hotte hote extraction plaque electrolux">
+                    <header class="card-head">
+                        <span class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="36" height="36">
+                                <path d="M8 26h24l-4-10H12z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                                <path d="M18 8h4v8h-4z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="brand-name">Hotte</p>
+                            <h2>À choisir</h2>
+                            <p class="card-role">Au-dessus de la plaque EIV66453I</p>
+                        </div>
+                    </header>
+                    <ul class="doc-list">
+                        <li>
+                            <span class="plain">Modèle non choisi — documents à venir</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <p class="empty-state" id="empty-state" hidden>
+        Aucun document ne correspond à cette recherche.
+        <button type="button" class="text-reset" id="reset-search">Effacer la recherche</button>
     </p>
 
-    <h2>Beko BSSA315K4SN - réfrigérateur</h2>
+    <button type="button" class="back-top" id="back-top" hidden>
+        Haut de page
+    </button>
 
-    <ul>
-        <li>
-            <a href="./Beko BSSA315K4SN - réfrigérateur - Appareil et niche (PDF).pdf" target="_blank">
-                Fiche Beko : appareil et niche (PDF)
-            </a>
-        </li>
+    <footer class="site-footer">
+        <p>
+            Documents d’origine des fabricants · usage interne cuisine
+        </p>
+        <p class="version" id="app-version">Version 1.2.4</p>
+    </footer>
 
-        <li>
-            <a href="./Beko BSSA315K4SN - réfrigérateur - Notice (PDF).pdf#page=34" target="_blank">
-                Notice Beko (PDF) - page 34 (PDF)
-            </a>
-        </li>
+    <script>
+        (function () {
+            var VERSION = "1.2.3";
+            var search = document.getElementById("search");
+            var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
+            var countEl = document.getElementById("result-count");
+            var empty = document.getElementById("empty-state");
+            var reset = document.getElementById("reset-search");
+            var backTop = document.getElementById("back-top");
 
-        <li>
-            <a href="https://www.beko.fr/froid/refrigerateur-congelateur-encastrable/refrigerateur-encastrable-1-porte/bssa315k4sn" target="_blank">
-                Page officielle
-            </a>
-        </li>
-    </ul>
+            document.getElementById("app-version").textContent = "Version " + VERSION;
 
-    <h2>Beko BMGB25333BG - micro-ondes</h2>
+            function normalize(value) {
+                return (value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
 
-    <ul>
-        <li>
-            <a href="./Beko BMGB25333BG - micro-ondes - Schéma de niche.pdf#page=55" target="_blank">
-                Schéma de niche - page 55 (PDF)
-            </a>
-        </li>
+            function applySearch() {
+                var query = normalize(search.value.trim());
+                var visibleCards = 0;
+                var visibleDocs = 0;
 
-        <li>
-            <a href="./Beko BMGB25333BG - micro-ondes - Schéma de niche.pdf#page=54" target="_blank">
-                Installation - page 54 (PDF)
-            </a>
-        </li>
+                cards.forEach(function (card) {
+                    var haystack = normalize(card.getAttribute("data-search") + " " + card.textContent);
+                    var showCard = !query || haystack.indexOf(query) !== -1;
+                    card.hidden = !showCard;
+                    if (showCard) {
+                        visibleCards += 1;
+                        visibleDocs += card.querySelectorAll("a").length;
+                    }
+                });
 
-        <li>
-            <a href="https://www.beko.fr/cuisson-encastrable/micro-ondes-et-grill-encastrable/micro-ondes-grill-encastrable/bmgb25333bg" target="_blank">
-                Page officielle
-            </a>
-        </li>
-    </ul>
+                document.querySelectorAll("main > section").forEach(function (section) {
+                    var visible = Array.prototype.slice.call(section.querySelectorAll(".card")).some(function (card) {
+                        return !card.hidden;
+                    });
+                    section.hidden = !visible;
+                });
 
-    <h2>Rosières RO6 T3B3EYTB - four</h2>
+                empty.hidden = visibleCards > 0;
+                countEl.textContent = visibleCards
+                    ? visibleCards + " élément" + (visibleCards > 1 ? "s" : "") + " · " + visibleDocs + " document" + (visibleDocs > 1 ? "s" : "")
+                    : "";
+            }
 
-    <ul>
-        <li>
-            <a href="./Rosières RO6 T3B3EYTB - four - Manuel.pdf#page=49" target="_blank">
-                Manuel d’instructions  - page 49 (PDF)
-            </a>
-        </li>
-		
-		<li>
-            <a href="./Rosières RO6 T3B3EYTB - four - Manuel.pdf" target="_blank">
-                Manuel d’installation  - page 88 (PDF)
-            </a>
-        </li>
-		
-		<li>
-            <a href="https://www.rosieres.fr/fr_FR/fours/33704465/ro6-t3b3eytb/" target="_blank">
-                Page officielle
-            </a>
-        </li>
-    </ul>
+            search.addEventListener("input", applySearch);
 
-    <h2>Hotpoint HI5030WEF - lave-vaisselle</h2>
+            reset.addEventListener("click", function () {
+                search.value = "";
+                applySearch();
+                search.focus();
+            });
 
-    <ul>
-        <li>
-            <a href="./Hotpoint HI5030WEF - lave-vaisselle - Fiche UE.pdf" target="_blank">
-                Fiche UE du modèle
-            </a>
-        </li>
-		
-		<li>
-            <a href="./Hotpoint HI5030WEF - lave-vaisselle - Fiche produit.pdf" target="_blank">
-                Fiche produit
-            </a>
-        </li>
-		
-		<li>
-            <a href="./Hotpoint HI5030WEF - lave-vaisselle - Montage.pdf" target="_blank">
-                Fiche montage
-            </a>
-        </li>
-		
+            document.addEventListener("keydown", function (event) {
+                var typing = event.target.matches("input, textarea, [contenteditable]");
+                if (event.key === "/" && !typing) {
+                    event.preventDefault();
+                    search.focus();
+                    search.select();
+                }
+                if (event.key === "Escape" && document.activeElement === search) {
+                    search.value = "";
+                    applySearch();
+                    search.blur();
+                }
+            });
 
-        <li>
-            <a href="https://docs.hotpoint.eu/" target="_blank">
-                Portail officiel : rechercher le modèle (HI5030WEF )
-            </a>
-        </li>
-    </ul>
+            window.addEventListener("scroll", function () {
+                backTop.hidden = window.scrollY < 420;
+            }, { passive: true });
 
-    <h2>Electrolux EIV66453I - plaque</h2>
+            backTop.addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
 
-    <ul>
-        <li>
-            <a href="./Electrolux EIV66453I - plaque - Schémas d’installation.pdf#page=9" target="_blank">
-                Schémas d’installation - page 9 (PDF)
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.electrolux.fr/kitchen/cooking/hobs/induction-hob/eiv66453i/" target="_blank">
-                Page officielle
-            </a>
-        </li>
-    </ul>
-
+            applySearch();
+        }());
+    </script>
 </body>
 
 </html>
