@@ -2,7 +2,7 @@
 
 Page de suivi du projet de cuisine : matériaux EGGER, plans, appareils commandés et achats encore en cours.
 
-Ouvrir `index.html` dans un navigateur. Les PDF du dossier doivent rester à côté de la page.
+Ouvrir `index.html` dans un navigateur. Les PDF du dossier doivent être placés dans le dossier `/files`.
 
 ## Version
 
