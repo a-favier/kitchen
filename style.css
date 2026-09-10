@@ -1,0 +1,67 @@
+body {
+	font: 16px/1.65 system-ui, sans-serif;
+	color: #25332f;
+	max-width: 880px;
+	margin: 40px auto;
+	padding: 0 24px;
+}
+
+h1 {
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 21px;
+	margin-top: 28px;
+}
+
+a {
+	color: #355c46;
+}
+
+.note {
+	background: #faf5e9;
+	padding: 18px;
+	border-left: 4px solid #9a722a;
+}
+
+li {
+	margin: 8px 0;
+}
+
+small {
+	color: #63706a;
+}
+
+.download-main {
+	background: #355c46;
+	color: white;
+	padding: 22px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.download-main strong {
+	display: block;
+	font-size: 22px;
+	margin-bottom: 8px;
+}
+
+.download-main p {
+	margin: 0 0 16px 0;
+}
+
+.download-main a {
+	display: inline-block;
+	background: white;
+	color: #355c46;
+	padding: 12px 22px;
+	border-radius: 7px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.download-main a:hover {
+	background: #faf5e9;
+}
