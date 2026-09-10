@@ -10,10 +10,61 @@
     <title>Documents techniques cuisine</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23737e73'/%3E%3Cpath fill='%23cfaf85' d='M8 10h16v3H8zm0 6h16v10H8z'/%3E%3C/svg%3E">
     <link href="style.css" rel="stylesheet">
+    <script>
+        /* ------------------------------------------------------------------
+           INTRO « Salut Jo ! »
+           true  = afficher l’écran d’accueil
+           false = ouvrir directement la page cuisine
+           ------------------------------------------------------------------ */
+        window.KITCHEN_SHOW_INTRO = true;
+        if (!window.KITCHEN_SHOW_INTRO) {
+            document.documentElement.classList.add("skip-intro");
+        }
+    </script>
 </head>
 
-<body>
+<body class="is-intro">
+    <noscript>
+        <style>
+            .intro { display: none !important; }
+            body.is-intro { overflow: auto; padding: 0 20px 48px; }
+            .site-stage { visibility: visible; }
+        </style>
+    </noscript>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <div class="intro" id="intro">
+        <p class="intro-hello">Salut Jo&nbsp;!</p>
+        <a class="intro-enter" id="intro-enter" href="#site-stage">
+            Consulter la cuisine
+        </a>
+    </div>
+    <script>
+        (function () {
+            if (!window.KITCHEN_SHOW_INTRO) {
+                document.body.classList.remove("is-intro");
+                document.body.classList.add("is-ready");
+                document.getElementById("intro").hidden = true;
+                return;
+            }
+            function openKitchen(event) {
+                if (event) event.preventDefault();
+                var intro = document.getElementById("intro");
+                document.body.classList.remove("is-intro");
+                document.body.classList.add("is-ready", "is-leaving-intro");
+                window.scrollTo(0, 0);
+                window.setTimeout(function () {
+                    intro.classList.add("is-done");
+                    intro.hidden = true;
+                    document.body.classList.remove("is-leaving-intro");
+                }, 450);
+            }
+            document.getElementById("intro-enter").addEventListener("click", openKitchen);
+            document.querySelector(".skip-link").addEventListener("click", openKitchen);
+        }());
+    </script>
+
+    <div class="site-stage" id="site-stage">
 
     <header class="site-header">
         <div class="header-inner">
@@ -105,7 +156,7 @@
                     <div class="swatch swatch-euca" aria-hidden="true"></div>
                     <header class="card-head">
                         <div>
-                            <p class="brand-name">Meubles</p>
+                            <p class="brand-name">Façades</p>
                             <h2>U604 ST9</h2>
                             <p class="card-role">Vert eucalyptus · Smoothtouch Matt</p>
                         </div>
@@ -455,12 +506,13 @@
         <p>
             Documents d’origine des fabricants · usage interne cuisine
         </p>
-        <p class="version" id="app-version">Version 1.2.6</p>
+        <p class="version" id="app-version">Version 1.3.2</p>
     </footer>
+    </div>
 
     <script>
         (function () {
-            var VERSION = "1.2.3";
+            var VERSION = "1.3.2";
             var search = document.getElementById("search");
             var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
             var countEl = document.getElementById("result-count");
