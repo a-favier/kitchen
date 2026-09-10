@@ -1,21 +1,41 @@
 # Cuisine — documents techniques
 
-Page de suivi du projet de cuisine : matériaux EGGER, appareils déjà commandés, et achats encore en cours.
+Page de suivi du projet de cuisine : matériaux EGGER, plans, appareils commandés et achats encore en cours.
 
 Ouvrir `index.html` dans un navigateur. Les PDF du dossier doivent rester à côté de la page.
 
 ## Version
 
-**1.2.0** — affichée en bas de page.
+**1.3.2** — affichée en bas de page.
+
+## Écran d’accueil
+
+Au chargement, un écran « Salut Jo ! » s’affiche, puis le bouton **Consulter la cuisine**.
+
+Pour le désactiver, une seule ligne dans le `<head>` de `index.html` :
+
+```js
+window.KITCHEN_SHOW_INTRO = true;
+```
+
+- `true` : afficher l’intro
+- `false` : ouvrir directement la page cuisine
 
 ## Matériaux
 
-- **Plan de travail** — EGGER H3157 ST12, Chêne Vicenza, structure Omnipore Matt  
+- **Plan de travail** — EGGER H3157 ST12, Chêne Vicenza, Omnipore Matt  
   https://www.egger.com/fr/mobilier-agencement-interieur/decors/H3157_12?country=FR
-- **Meubles / façades** — EGGER U604 ST9, Vert eucalyptus, structure Smoothtouch Matt  
+- **Façades** — EGGER U604 ST9, Vert eucalyptus, Smoothtouch Matt  
   https://www.egger.com/fr/mobilier-agencement-interieur/decors/U604_9?country=FR
 
 Les teintes à l’écran sont indicatives. EGGER recommande un échantillon réel avant fabrication.
+
+## Plans
+
+Section prévue, fichiers pas encore ajoutés :
+
+- Implantation (vue de dessus et cotes)
+- Élévations (vues des meubles)
 
 ## Appareils commandés
 
@@ -37,6 +57,6 @@ Pas encore de modèle choisi :
 
 ## Page web
 
+- thème clair uniquement
 - recherche (`/` pour focus)
-- filtres Tout / PDF / pages officielles / achats en cours
-- thème clair ou sombre
+- navigation vers matériaux, plans et appareils
