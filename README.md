@@ -1,12 +1,12 @@
 # Cuisine — documents techniques
 
-Page de suivi du projet de cuisine : matériaux EGGER, plans, appareils commandés et achats encore en cours.
+Page de suivi du projet de cuisine : matériaux EGGER, plans, appareils commandés et poignées encore à choisir.
 
 Ouvrir `index.html` dans un navigateur. Les PDF du dossier doivent être placés dans le dossier `/files`.
 
 ## Version
 
-**1.3.2** — affichée en bas de page.
+**1.4.3** — affichée en bas de page.
 
 ## Écran d’accueil
 
@@ -44,19 +44,18 @@ Section prévue, fichiers pas encore ajoutés :
 - Rosières RO6 T3B3EYTB — four
 - Hotpoint HI5030WEF — lave-vaisselle
 - Electrolux EIV66453I — plaque à induction
+- Blanco ZIA XL 6 S — évier Silgranit blanc soft
+- Essebagno Portofino — mitigeur cuivre brossé, douchette extractible
+- Electrolux LFG716X2 — groupe filtrant 54 cm, Hob2Hood
 
-Le dossier menuisier est `Dossier_technique_menuisier.pdf`.
+Le dossier menuisier est `Dossier_technique_menuisier.pdf` (version 4, 13 septembre 2026) : 8 fiches, dont évier, robinet et hotte.
 
-## Achats en cours
+## À choisir
 
-Pas encore de modèle choisi :
-
-- évier (à encastrer dans le plan Chêne Vicenza)
-- robinet
-- hotte (au-dessus de la plaque Electrolux)
+- Poignées de façades — à coordonner avec le robinet cuivre brossé
 
 ## Page web
 
 - thème clair uniquement
 - recherche (`/` pour focus)
-- navigation vers matériaux, plans et appareils
+- navigation vers matériaux, plans, poignées et appareils

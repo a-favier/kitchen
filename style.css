@@ -575,6 +575,37 @@ main {
 	font-size: 14px;
 }
 
+.card h3 {
+	margin: 14px 8px 8px;
+	font-size: 11px;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: var(--brass);
+}
+
+.spec-list {
+	margin: 0 8px 10px;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	gap: 7px;
+	font-size: 14px;
+	color: var(--muted);
+}
+
+.spec-list strong {
+	color: var(--ink);
+	font-weight: 650;
+}
+
+.card-wide {
+	width: 100%;
+}
+
+.card-wide .spec-list {
+	grid-template-columns: 1fr 1fr;
+}
+
 .doc-list {
 	list-style: none;
 	margin: 8px 0 12px;
@@ -672,6 +703,10 @@ input:focus-visible {
 	.appliance-grid {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.card-wide .spec-list {
+		grid-template-columns: 1fr;
 	}
 
 	.search-kbd {
